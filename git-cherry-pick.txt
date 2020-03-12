@@ -1,4 +1,15 @@
-git leanning
+git cherry-pick
 
-2.I'm from branch dev again
+1.作用
+git cherry-pick可以选择另一个分支的一个或多个commit合并到当前分支，不必merge另一个分支的所有commit导致混乱
+
+2.使用
+  master
+  dev
+  
+  master想要和合并dev commits中的一个commit功能作为发布版本，这个时候：
+  在dev上找到想要被合并的commitId
+  切换到master
+  git cherry-pick commitId
+  如果有冲突解决冲突
 
