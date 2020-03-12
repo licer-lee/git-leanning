@@ -14,4 +14,4 @@ git cherry-pick可以选择另一个分支的一个或多个commit合并到当�
   如果有冲突解决冲突.解决完commit提交
   查看日志 git log 即看到这次commit记录
 
-  
+
